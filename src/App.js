@@ -29,7 +29,10 @@ function App() {
     <>
     <Header title="Todo List" searchbar={true}/>
     <Todos todos={todos}/>
-    <TodoItem/>
+    {/* <TodoItem /> */} 
+    {/* 
+        yahan upar aapne TodoItem ko props pass nhi kiye.. toh error aa raha tha ki cannot read propertis of undefined ( reading title ) Toh maine isse comment out kar diya.  (Woh lintinf wala error nhi aaya mere mein)  
+    */}
     <Footer/>   
     </>
   );
